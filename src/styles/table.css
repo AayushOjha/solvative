@@ -1,0 +1,33 @@
+table {
+  margin-top: 20px;
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table th {
+  border: 1px solid #b3adad;
+  padding: 10px 15px;
+  background: #f0f0f0;
+  color: rgb(49, 48, 48);
+}
+
+table td {
+  padding: 5px 35px;
+  border: 1px solid #b3adad;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(49, 48, 48);
+}
+
+@media (max-width: 625px) {
+  table td {
+    padding: 5px 15px;
+  }
+}
+
+.table-message {
+  text-align: center;
+  margin: 10px;
+  font-weight: 500;
+}
